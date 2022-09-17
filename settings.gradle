@@ -1,0 +1,9 @@
+rootProject.name = 'apt'
+
+include ':my-anno'
+project(':my-anno').projectDir = "$rootDir/myAnno" as File
+
+include ':my-service'
+project(':my-service').projectDir = "$rootDir/myService" as File
+
+
